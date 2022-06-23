@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+#main-menu {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    display: grid;
+    justify-content: center;
+}
+
+button {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-top: 25px;
+    width: 200px;
+}
+
+#rules-list {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 300px;
+}
+
+#reload {
+    position: absolute;
+    font-weight: bold;
+    right: 10px;
+    top: 10px;
+}
+
+#setting-game-div {
+    display: block;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.size-div {
+    display: block;
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input[type=range] {
+    position: relative;
+    top: 6px;
+}
+
+#map {
+    display: block;
+    position: relative;
+    margin: auto;
+    border: 2px solid #bbb;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#player {
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    background-color: #44b;
+    border-radius: 5px;
+}
+
+#cake {
+    position: absolute;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    background-color: #b44;
+    border-radius: 10px;
+}
+
+.demo {
+    position: absolute;
+    bottom: 0px;
+}
